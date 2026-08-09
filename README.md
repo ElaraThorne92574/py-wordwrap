@@ -3,8 +3,8 @@
 ```
 wordwrap.py
 ```
-See the test next to the source for usage.
+Run the Python Wordwrap test next to the implementation for concrete examples.
 
 Wrap text to a column width without breaking words — dependency-free.
 
-No dependencies, no service to run — just the standard library.
+Python Wordwrap uses only the python standard library; there is no service or dependency to install.
