@@ -3,8 +3,8 @@
 ```
 wordwrap.py
 ```
-Most text formatters pull in heavy dependencies or require a wall of config just to break a line. This one doesn't. It wraps text to a strict column width. It refuses to split words. Zero external packages.
+Look at the tests next to the implementation. They show the exact edge cases.
 
-Check the test suite next to the implementation. It shows exactly how the algorithm handles edge cases without hiding the logic.
+Most wrapping tools pull in massive dependency trees. This one does not. It wraps text to a strict column width. It keeps words intact. Time to first call is basically zero.
 
-We built this using strictly the Python standard library. No pip installs. No background services. No hidden network calls. You import it, call it, and move on. Time-to-first-wrap is basically zero.
+We only use the standard library. Zero dependencies. Zero config files. Just import the module and call the function.
